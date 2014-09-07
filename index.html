@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<style rel="stylesheet" type="text/css">
+		body {
+			font-family: sans-serif;
+		}
+		.photo {
+			float: left;
+			padding-top: 1em;
+			padding-left: 1em;
+		}
+		ul {
+			list-style-type: none;
+			list-style-image: none;
+			float: left;
+		}
+		section {
+			clear: both;
+		}
+		section > h1 {
+			color: #555;
+			border-bottom: 1px solid #555;
+		}
+		.work-experience {
+			border-bottom: 1px dashed #555;
+			margin-bottom: 2em;
+			padding-bottom: 1em;
+		}
+		.work-experience:last-of-type {
+			border-bottom: none;
+		}
+		.project {
+			border-bottom: 1px dashed #555;
+			padding-bottom: 1em;
+			margin-bottom: 1em;
+			padding-top: 0.1em;
+		}
+		.project:last-of-type {
+			border-bottom: none;
+		}
+		.keywords > span {
+			margin: auto 1em;
+			border: 1px solid #cff;
+			padding: 0.2em;
+			background-color: #cff;
+			cursor: pointer;
+		}
+		.highlight {
+			background-color: #ffc;
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<h1>Personal information</h1>
+		<div class="h-card">
+			<img class="photo u-photo" src="http://dsthode.info/wpblog/wp-content/uploads/2012/02/yo-150x150.jpg"/>
+			<ul>
+				<li><span class="p-name">Damián Serrano Thode</span></li>
+				<li><a class="u-email" href="mailto:mail@dsthode.info">mail@dsthode.info</a></li>
+				<li>Country: <span class="p-country-name">Spain</span></li>
+				<li>Education: BS in Computer Science (pending final thesis) by the University of Málaga</li>
+				<li>Spanish: Native</li>
+				<li>English: Full working proficiency</li>
+				<li>French: Limited working proficiency</li>
+				<li><a class="u-url" href="http://dsthode.info">Personal website</a></li>
+				<li><a href="https://github.com/dsthode">GitHub repository</a></li>
+				<li><a href="https://www.linkedin.com/in/dsthode">LinkedIn profile</a></li>
+			</ul>
+		</div>
+	</section>
+	<section>
+		<h1>Work experience</h1>
+		<div class="work-experience">
+			<a name="assda"></a>
+			<p class="title">R&amp;D Engineer at Agencia de Servicios Sociales y Dependencia de Andalucía</p>
+			<p class="timespan">2011 - present day</p>
+			<p class="description">Design and develop software architectures, both server and client side. Also eventually I give support to our IT infrastructure.</p>
+		</div>
+		<div class="work-experience">
+			<p class="title"><a name="freelance">Freelance consultant</a></p>
+			<p class="timespan">2007 - present day</p>
+			<p class="description">Design and develop web and mobile applications.</p>
+		</div>
+		<div class="work-experience">
+			<p class="title"><a name="fass">R&amp;D Engineer at Fundacion Andaluza de Servicios Sociales</a></p>
+			<p class="timespan">2006 - 2011</p>
+			<p class="description">Design and develop software architectures, both server and client side. Also eventually I give support to our IT infrastructure.</p>
+		</div>
+		<div class="work-experience">
+			<a name="ptec"></a>
+			<p class="title">Software Developer at Plataforma Tecnológica S.L.</p>
+			<p class="timespan">2003 - 2006</p>
+			<p class="description">Design and develop call centre, RFID and mapping/GIS solutions.</p>
+		</div>
+		<div class="work-experience">
+			<a name="hispafuentes"></a>
+			<p class="title">Software Developer at HispaFuentes S.L.</p>
+			<p class="timespan">2000 - 2001</p>
+			<p class="description">Develop, translate and integrate a custom Linux distribution based on RedHat Linux. Customer support.</p>
+		</div>
+	</section>
+	<section>
+		<h1>Projects</h1>
+		<div class="project">
+			<a name="p1"></a>
+			<p class="timespan">2006 - 2008</p>
+			<p class="project-type">Employee</p>
+			<p class="description">Geographic Information System used to display and locate on a map the social care resources of the regional government. The system was composed of a series of web pages developed using JSP that interfaced with several web services at the backend. These web services then communicated with a GeoServer GIS server connected to a PostgreSQL database with PostGIS spatial extensions to extract the geographical information. Later the project was extended to support Oracle and Oracle Spatial as the database engine.<br/>
+			My role on the project was the choice of the technological platform, specification, design and development of the whole application.</p>
+			<p class="keywords"><span data-keyword="gis">GIS</span><span data-keyword="javaee">Java EE</span><span data-keyword="jsp">JSP</span><span data-keyword="webservices">Web Services</span><span data-keyword="postgresql">PostgreSQL</span><span data-keyword="postgis">PostGIS</span><span data-keyword="oracle">Oracle</span><span data-keyword="oraclespatial">Oracle Spatial</span></p>
+		</div>
+		<div class="project">
+			<a href="p2"></a>
+			<p class="timespan">2007 - present day</p>
+			<p class="project-type">Freelance</p>
+			<p class="description">Internal management web application for a beauty clinic. The application manages all the information related to clients, billing, providers and appointments.<br/>
+			The application was developed using Ruby on Rails version 1.2.3 and was upgraded to version 3.2.6 some months ago. The application makes use of jQuery and Bootstrap and is being ported to AngularJS to make it a single page app, using Node, Grunt and Yeoman for the tooling on the frontend layer and Capistrano for deployment of the backend layer.</p>
+	<p class="keywords"><span data-keyword="rubyonrails">Ruby On Rails</span><span data-keyword="jquery">jQuery</span><span data-keyword="angularjs">AngularJS</span><span data-keyword="bootstrap">Bootstrap</span><span data-keyword="node">Node</span><span data-keyword="grunt">Grunt</span><span data-keyword="yeoman">Yeoman</span><span data-keyword="capistrano">Capistrano</span><span data-keyword="mysql">MySQL</span></p>
+			</p>
+		</div>
+		<div class="project">
+			<a name="p3"></a>
+			<p class="timespan">2007 - 2009</p>
+			<p class="project-type">Employee</p>
+			<p class="description">Internal application for the management of nursery school related information: location, availability, photos and position on map. This application was a part of a greater project based on GIS technologies for my employer, an agency of the regional government.<br/>
+			This project provided an administration panel for entering the data of the previous project<br/>
+			The application was developed using Ruby on Rails version 1.2.4 and made use of jQuery.<br/>
+	My role on the project was the choice of the technological platform, specification, design and development of the whole application.</p>
+			<p class="keywords"><span data-keyword="rubyonrails">Ruby On Rails</span><span data-keyword="jquery">jQuery</span><span data-keyword="postgresql">PostgreSQL</span><span data-keyword="oracle">Oracle</span></p>
+		</div>
+		<div class="project">
+			<a name="p4"></a>
+			<p class="timespan">2007 - present day</p>
+			<p class="project-type">Freelance</p>
+			<p class="description">Internal management web application for a cranes company. The application manages all the information related to clients, building sites, workers, vehicles, schedules, billing, providers and estimates.<br/>
+			The application was developed with Ruby on Rails version 1.2.3 and is still being maintained and extended with new features. The application makes use of jQuery and YUI.</p>
+			<p class="keywords"><span data-keyword="rubyonrails">Ruby On Rails</span><span data-keyword="jquery">jQuery</span><span data-keyword="yui">YUI</span><span data-keyword="mysql">MySQL</span></p>
+		</div>
+		<div class="project">
+			<a name="p5"></a>
+			<p class="timespan">2008 - 2009</p>
+			<p class="project-type">Employee</p>
+			<p class="description">Internal system designed to enhance the information available from the call center platform. The system was composed of web services developed using Java EE with Enterprise Beans (web services and data access), and a client application made with .Net Framework on Visual Basic .Net. The system also relied on a messaging layer implemented with Apache ActiveMQ for the coordination of the client/server communication.<br/>
+	My role on the project was the choice of the technological platform, and lead the design and development team based on the specifications provided.</p>
+	<p class="keywords"><span data-keyword="javaee">Java EE</span><span data-keyword="enterprisebeans">Enterprise Beans</span><span data-keyword="postgresql">PostgreSQL</span><span data-keyword="netframework">.Net Framework</span><span data-keyword="visualbasic.net">Visual Basic .Net</span><span data-keyword="activemq">Apache ActiveMQ</span></p>
+		</div>
+		<div class="project">
+			<a name="p6"></a>
+			<p class="timespan">2009 - 2014</p>
+			<p class="project-type">Freelance</p>
+			<p class="description">Website for a ceramic machinery company. The website was developed with Ruby on Rails version 2.2.2 as the client needed dynamic features and manage articles via an administration panel. The project is no longer online as has been recently replaced by a WordPress installation</p>
+			<p class="keywords"><span data-keyword="rubyonrails">Ruby On Rails</span><span data-keyword="jquery">jQuery</span><span data-keyword="mysql">MySQL</span></p>
+		</div>
+		<div class="project">
+			<a name="p7"></a>
+			<p class="timespan">2009 - present day</p>
+			<p class="project-type">Employee</p>
+			<p class="description">Internal system designed to enhance the information available from the call center platform. The system was composed of web services developed using .Net Framework with the Web Communication Foundation (web services) and LINQ (data access), and a client application made with .Net Framework on Visual C#. The system also reliend on a mesaging layer implemented with Apacje ActiveMQ for the coordination of the client/server communication.<br/>
+			This system is a rewrite of the previous one using a different technology stack.<br/>
+	My role on the project was the choice of the technological platform, and lead the design and development team based on the specifications provided.</p>
+	<p class="keywords"><span data-keyword="netframework">.Net Framework</span><span data-keyword="wcf">WCF</span><span data-keyword="visualcsharp">Visual C#</span><span data-keyword="mssqlserver">MSSQL Server</span><span data-keyword="activemq">Apache ActiveMQ</span></p>
+		</div>
+		<div class="project">
+			<a name="p8"></a>
+			<p class="timespan">2010 - present day</p>
+			<p class="project-type">Employee</p>
+			<p class="description">Internal application for the management of quality assurance of the calls made in the call center of my employer, an agency of the regional government.<br/>
+			The application was developed using Ruby on Rails version 2.3.6 for the backend and is delivered as a single page app, using Backbone and Bootstrap for the frontend layer.<br/>
+	My role on the project was the choice of the technological platform, design and development of the whole application based on the specifications provided.</p>
+	<p class="keywords"><span data-keyword="rubyonrails">Ruby On Rails</span><span data-keyword="jquery">jQuery</span><span data-keyword="backbone">Backbone</span><span data-keyword="bootstrap">Bootstrap</span><span data-keyword="mssql server">MSSQL Server</span></p>
+		</div>
+		<div class="project">
+			<a name="p8"></a>
+			<p class="timespan">2011</p>
+			<p class="project-type">Freelance</p>
+			<p class="description">Maze Break-Out. This is a maze solving game, targeted for children but also enjoyable by teens and adults of all ages, thanks to the different difficulty levels and the unlimited number of mazes, all generated with an algorithm, that make it virtually infinite.<br/>
+			The application was developed as a web application and was packaged as an Android application using the Phonegap framework.<br/>
+	My role on the project was the choice of the technological platform, design and development of the whole application.</p>
+	<p class="keywords"><span data-keyword="mobileapplication">Mobile application</span><span data-keyword="android">Android</span><span data-keyword="html5">HTML5</span><span data-keyword="phonegap">Phonegap</span></p>
+		</div>
+		<div class="project">
+			<a name="p9"></a>
+			<p class="timespan">2012 - present day</p>
+			<p class="project-type">Employee</p>
+			<p class="description">Internal application for the management of information related to social care centers and billing, for my employer, an agency of the regional government.<br/>
+			The application was developed using Ruby on Rails version 3.2.2 for the backend and Backbone and Bootstrap for the frontend. The deployment of the application is made with Capistrano.<br/>
+	My role on the project was the choice of the technological platform, specification, design, development and deployment of the whole application.</p>
+			<p class="keywords"><span data-keyword="rubyonrails">Ruby On Rails</span><span data-keyword="jquery">jQuery</span><span data-keyword="backbone">Backbone</span><span data-keyword="bootstrap">Bootstrap</span><span data-keyword="capistrano">Capistrano</span><span data-keyword="postgresql">PostgreSQL</span></p>
+		</div>
+		<div class="project">
+			<a name="p10"></a>
+			<p class="timespan">2013 - present day</p>
+			<p class="project-type">Freelance</p>
+			<p class="description">Internal management application for an optical brand. The application will manage all the information related to clients, providers, products, appointments, billing, eye graduations, lenses and contact lenses.<br/>
+	The application is being developed using Ruby on Rails version 3.2.15 for the backend and AngularJS and Bootstrap for the frontend, as well as the tooling that Node, Grunt and Yeoman provide for building the frontend layer, and Capistrano for deployment of the backend layer.</p>
+			<p class="keywords"><span data-keyword="rubyonrails">Ruby On Rails</span><span data-keyword="angularjs">AngularJS</span><span data-keyword="bootstrap">Bootstrap</span><span data-keyword="node">Node</span><span data-keyword="grunt">Grunt</span><span data-keyword="yeoman">Yeoman</span><span data-keyword="capistrano">Capistrano</span><span data-keyword="postgresql">PostgreSQL</span></p>
+		</div>
+		<div class="project">
+			<a name="p11"></a>
+			<p class="timespan">2013 - present day</p>
+			<p class="project-type">Employee</p>
+			<p class="description">Internal application for the management of information related to social services, social workers and users. This application was developed for my employer, an agency of the regional government.<br/>
+			The application was developed using Rails version 3.2.15 for the backend and AngularJS and Bootstrap for the frontend, as well as Node, Grunt and Yeoman for the tooling on the frontend and Capistrano for deployment of the backend.<br/>
+	My role on the project was the choice of the technological platform, being lead of the development team based on the specifications provided, and being responsible of the deployment.</p>
+	<p class="keywords"><span data-keyword="rubyonrails">Ruby On Rails</span><span data-keyword="angularjs">AngularJS</span><span data-keyword="bootstrap">Bootstrap</span><span data-keyword="node">Node</span><span data-keyword="grunt">Grunt</span><span data-keyword="yeoman">Yeoman</span><span data-keyword="capistrano">Capistrano</span><span data-keyword="postgresql">PostgreSQL</span></p>
+		</div>
+		<div class="project">
+			<a name="p12"></a>
+			<p class="timespan">2014</p>
+			<p class="project-type">Freelance</p>
+			<p class="description">Color Guess. A puzzle like game for FirefoxOS I made for the "Apps for phones" campaign from Mozilla. The game demonstrates the Stroop effect, where the name of a color is shown on the screen painted in a color (might be the same as the name or a different one), and the user has to tell if the name and the color match or not, before the time runs out.<br/>
+			The game was developed using AngularJS as a web application and delivered as a packaged app installable through the Firefox Marketplace<br/>
+	My role on the project was the choice of the technological platform, design and development of the whole application</p>
+			<p class="keywords"><span data-keyword="angularjs">AngularJS</span><span data-keyword="mobileapplication">Mobile application</span><span data-keyword="html5">HTML5</span><span data-keyword="firefoxos">Firefox OS</span></p>
+		</div>
+		<div class="project">
+			<a name="p12"></a>
+			<p class="timespan">2014 - present day</p>
+			<p class="project-type">Employee</p>
+			<p class="description">Internal application for the management of information related to social services, social care centers and billing. This application was developed for my employer, an agency of the regional government.<br/>
+			The application was developed using Ruby on Rails version 3.2.17, and makes use of jQuery and Bootstrap for the frontend, and Capistrano for the deployment. This application has not been delivered as a single page app because it would need to support older browsers like Microsoft Internet Explorer 7.<br/>
+	My role on the project was the choice of the technological platform, lead the development team, and be responsible of the deployment.</p>
+			<p class="keywords"><span data-keyword="rubyonrails">Ruby On Rails</span><span data-keyword="jquery">jQuery</span><span data-keyword="bootstrap">Bootstrap</span><span data-keyword="capistrano">Capistrano</span><span data-keyword="postgresql">PostgreSQL</span></p>
+		</div>
+		</section>
+		<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+		<script type="text/javascript">
+			var highlight_keywords = [];
+			function getParameter(name)
+			{
+				name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+				var regexS = "[\\?&]"+name+"=([^&#]*)";
+				var regex = new RegExp( regexS );
+				var results = regex.exec( window.location.href );
+				if( results == null )
+					return null;
+				else
+					return results[1];
+			}
+			function toggleKeyword(keyword) {
+				if (keyword) {
+					var index = $.inArray(keyword, highlight_keywords);
+					if (index == -1) {
+						highlight_keywords.push(keyword);
+					} else {
+						highlight_keywords.splice(index, 1);
+					}
+					setup_highlights();
+				}
+			};
+			function setup_highlights() {
+				$('.project').removeClass('highlight');
+				highlight_keywords.forEach(function(item, index) {
+						highlight(item);
+				});
+			};
+			function highlight(keyword) {
+				$('.keywords > span[data-keyword=' + keyword + ']').each(function(index, item) {
+					$(item).parents('.project').addClass('highlight');
+				});
+			};
+			$(document).ready(function() {
+				$('.keywords span').each(function(index, item) {
+					$(item).on('click', function(ev) {
+						toggleKeyword($(ev.target).data('keyword'));
+					});
+				});
+				var keywords = getParameter('highlight');
+				if (keywords) {
+					keywords.split(',').forEach(function(item, index) {
+						toggleKeyword(item);
+					});
+				}
+			});
+		</script>
+</body>
+</html>
